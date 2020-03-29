@@ -133,3 +133,60 @@ body {
 .Page .Register button {
   margin: 5px;
 }
+
+
+
+
+.Page .section {
+  margin: 0px 0px 100px 0px;
+  padding: 0px;
+}
+
+#clickable-company-image {
+  /* width: 150px; */
+
+  image-resolution: from-image;
+}
+
+.Page .section .clickable-company {
+  /* background-color: lightgreen; */
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  color: black;
+  /* padding-top: 100px; */
+}
+
+.Page .section .clickable-company .image {
+  /* background-color: green; */
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.Page .section .clickable-company .image img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  /* height: auto; */
+  /* left: 50%; */
+  /* top: 50%; */
+}
+
+.Page .section .clickable-company .info {
+  background-color: #bbddff;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.Page .section .clickable-company .info:hover {
+  background-color: #00bbff;
+}
+
+.Page .section .clickable-company .info p{
+  margin: 0px;
+  padding: 15px;
+}

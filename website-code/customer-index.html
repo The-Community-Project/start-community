@@ -8,29 +8,54 @@
   <body>
     <div class="navbar">
       <ul>
-        <li><a href="index.html"><p>Home</p></a></li>
+        <li><a href="customer-index.html"><p>Home</p></a></li>
         <li><a href="#"><p>PF</p></a></li>
       </ul>
     </div>
     <div class="Page">
-      <form class="Login" action="index.html" method="post">
-          <label>E-mail: </label><br>
-          <input type="email" name="email" placeholder="iemand@example.com"><br>
-          <label>Wachtwoord: </label><br>
-          <input type="password" name="paswd"><br>
-          <button type="button" name="button">Log in</button>
-      </form>
-      <form class="Register" action="index.html" method="post">
-        <label>Naam: </label><br>
-        <input type="text" name="name"><br>
-        <label>Voornaam: </label><br>
-        <input type="text" name="fname"><br>
-        <label>E-mail: </label><br>
-        <input type="email" name="email" placeholder="iemand@example.com"><br>
-        <label>Wachtwoord: </label><br>
-        <input type="password" name="paswd"><br>
-        <button type="button" name="button">Registreer</button>
-      </form>
+      <!-- here the different types of stores will be listed. I think it would be best to implement the same style for
+      every section. We will get this information out of an json file.
+      But for now, it is hardcoded so you can see what it is supposed to look like. -->
+      <div class="section">
+        <h2>Brood</h2>
+        <a href="index.html">
+          <div class="clickable-company">
+            <div class="image">
+                <img src="images/1-square.png" class="clickable-company-image">
+            </div>
+            <div class="info">
+              <p>The Bakery</p>
+              <p>This place somewhere</p>
+            </div>
+          </div>
+         </a>
+        <a href="index.html">
+          <div class="clickable-company">
+            <div class="image">
+                <img src="images/4-square.jpg" class="clickable-company-image">
+            </div>
+            <div class="info">
+              <p>Another Bakery</p>
+              <p>This place somewhere else</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="section">
+        <h2>Vlees</h2>
+        <a href="index.html">
+          <div class="clickable-company">
+            <div class="image">
+                <img src="images/3-square.jpg" alt="" class="clickable-company-image">
+            </div>
+            <div class="info">
+              <p>The BuTcHeR</p>
+              <p>This place somewhere</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </body>
 </html>

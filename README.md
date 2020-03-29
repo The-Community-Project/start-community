@@ -23,6 +23,7 @@ __The goal__ is to make a website where u can log on as a customer, courier or c
 
 ## Necessities
 1. Website
+  1. We will use Django for the website.
 1. Database
 
-I plan on hosting the website from my home since my own town is really small. 
+I plan on hosting the website from my home since my own town is really small.
